@@ -86,7 +86,7 @@
     <section id="mapa">
         <h2>Ubicación y mapa satelital</h2>
         <p>Bogotá se encuentra en el centro de Colombia, sobre la Sabana de Bogotá, a una altitud promedio de 2.640 metros sobre el nivel del mar. La ciudad está rodeada por montañas de la cordillera Oriental de los Andes.</p>
-        <img src="<img width="358" height="495" alt="Captura de pantalla 2025-10-27 160421" src="https://github.com/user-attachments/assets/4b6764b3-d2dc-4e2a-952d-18409fc2d304" />
+    <img width="358" height="495""Captura de pantalla 2025-10-27 160421" src="https://github.com/user-attachments/assets/4b6764b3-d2dc-4e2a-952d-18409fc2d304" />
 " alt="Mapa satelital de Bogotá">
     </section>
 
