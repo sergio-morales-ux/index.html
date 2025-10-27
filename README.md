@@ -1,1 +1,137 @@
 # index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turismo en Bogotá, Colombia</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #0066cc, #00aaff);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            background-color: #004c99;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #0066cc;
+            border-bottom: 2px solid #00aaff;
+            padding-bottom: 5px;
+        }
+        img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        footer {
+            background-color: #004c99;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+        footer a {
+            color: #00aaff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turismo en Bogotá, Colombia</h1>
+    </header>
+
+    <nav>
+        <a href="#mapa">Mapa</a>
+        <a href="#datos">Datos clave</a>
+        <a href="#turismo">Propuesta turística</a>
+        <a href="#imagenes">Imágenes</a>
+    </nav>
+
+    <section id="mapa">
+        <h2>Ubicación y mapa satelital</h2>
+        <p>Bogotá se encuentra en el centro de Colombia, sobre la Sabana de Bogotá, a una altitud promedio de 2.640 metros sobre el nivel del mar. La ciudad está rodeada por montañas de la cordillera Oriental de los Andes.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Bogota_-_Satellite_Image.png" alt="Mapa satelital de Bogotá">
+    </section>
+
+    <section id="datos">
+        <h2>Datos clave</h2>
+        <ul>
+            <li><strong>Población:</strong> Aproximadamente 11.508.000 habitantes (2023)</li>
+            <li><strong>Año de fundación:</strong> 6 de agosto de 1538</li>
+            <li><strong>Función principal:</strong> Centro político, económico, administrativo, industrial, artístico, cultural, deportivo y turístico de Colombia</li>
+        </ul>
+    </section>
+
+    <section id="turismo">
+        <h2>Propuesta turística</h2>
+
+        <h3>1. La Candelaria</h3>
+        <p>El corazón histórico de Bogotá, con calles empedradas, arquitectura colonial y museos emblemáticos.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/La_Candelaria_Bogota.jpg" alt="La Candelaria">
+
+        <h3>2. Cerro de Monserrate</h3>
+        <p>Desde este cerro se obtiene una vista panorámica impresionante de la ciudad. Se puede acceder por teleférico o funicular.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Monserrate_Bogota.jpg" alt="Monserrate">
+
+        <h3>3. Museo del Oro</h3>
+        <p>Alberga una vasta colección de piezas prehispánicas de oro, representando la riqueza cultural de las civilizaciones indígenas.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/7d/Museo_del_Oro_Bogota.jpg" alt="Museo del Oro">
+
+        <h3>4. Plaza Bolívar</h3>
+        <p>Centro neurálgico de la ciudad, rodeada por la Catedral Primada, el Capitolio Nacional y el Palacio Liévano.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/5/5b/Plaza_Bolivar_Bogota.jpg" alt="Plaza Bolívar">
+
+        <h3>5. Torre Colpatria</h3>
+        <p>Uno de los rascacielos más altos de Colombia, ofrece una vista panorámica de 360 grados de Bogotá desde su mirador.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Torre_Colpatria_Bogota.jpg" alt="Torre Colpatria">
+    </section>
+
+    <section id="imagenes">
+        <h2>Más imágenes de Bogotá</h2>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Bogota_panorama.jpg" alt="Vista panorámica de Bogotá">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/La_Candelaria_Bogota.jpg" alt="Calles coloridas de La Candelaria">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Monserrate_Bogota.jpg" alt="Atardecer en Monserrate">
+    </section>
+
+    <footer>
+        <p>Más información en <a href="https://visitbogota.co/es/" target="_blank">visitbogota.co</a></p>
+    </footer>
+</body>
+</html>
